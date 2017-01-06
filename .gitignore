@@ -1,0 +1,6 @@
+.node-version
+node_modules
+public/*
+
+# Exclusions
+!public/index.html
