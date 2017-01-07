@@ -11,7 +11,7 @@
   "scripts": {
     "lint": "eslint ./src",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run clean && webpack-dev-server --progress --colors --history-api-fallback",
+    "start": "npm run clean && webpack-dev-server --progress --colors",
     "build": "npm run clean && webpack --progress --colors",
     "watch": "npm run build -- --watch",
     "deploy": "NODE_ENV=production npm run build && gh-pages -d public",

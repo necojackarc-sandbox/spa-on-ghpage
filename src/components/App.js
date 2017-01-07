@@ -1,9 +1,19 @@
-import React from 'react';
+import React, { PropTypes } from 'react';
 
-export default function (_props) {
+import AppBar from './AppBar';
+import Home from './Home';
+
+export default function App(props) {
   return (
     <div>
-      Hello World!
+      <AppBar />
+      <div style={{ margin: '8px' }}>
+        {props.children || <Home />}
+      </div>
     </div>
   );
 }
+
+App.propTypes = {
+  children: PropTypes.element,
+};
