@@ -1,7 +1,7 @@
 {
-  "name": "twikson",
+  "name": "spa-on-ghpage",
   "version": "0.0.1",
-  "description": "twikson",
+  "description": "spa-on-ghpage",
   "private": true,
   "engineStrict": true,
   "engines": {
@@ -19,14 +19,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:necojackarc/twikson.git"
+    "url": "git@github.com:necojackarc/spa-on-ghpage.git"
   },
   "author": "necojackarc",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/necojackarc/twikson/issues"
+    "url": "https://github.com/necojackarc/spa-on-ghpage/issues"
   },
-  "homepage": "https://github.com/necojackarc/twikson#readme",
+  "homepage": "https://github.com/necojackarc/spa-on-ghpage#readme",
   "devDependencies": {
     "babel-core": "^6.21.0",
     "babel-eslint": "^7.1.1",

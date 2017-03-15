@@ -22,7 +22,7 @@ export default class _AppBar extends Component {
     return (
       <div>
         <AppBar
-          title="twikson"
+          title="spa-on-ghpage"
           onLeftIconButtonTouchTap={this._handleToggle}
         />
         <Drawer
