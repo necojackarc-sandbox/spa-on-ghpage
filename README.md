@@ -1,2 +1,3 @@
-# [spa-on-ghpage](http://necojackarc.github.io/spa-on-ghpage/)
-Under construction.
+# [spa-on-ghpage](http://necojackarc-sandbox.github.io/spa-on-ghpage/)
+
+Sample project for a SPA that can run on a Github page.
